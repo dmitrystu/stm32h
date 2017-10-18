@@ -1,18 +1,20 @@
 #ifndef _STM32_H_
 #define _STM32_H_
-/* some useful macros for the bitfield manipulation here */
+
 /* modify bitfield */
-#define BMD(reg, msk, val)     (reg) = (((reg) & ~(msk)) | (val))
+#define _BMD(reg, msk, val)     (reg) = (((reg) & ~(msk)) | (val))
 /* set bitfield */
-#define BST(reg, bits)         (reg) = ((reg) | (bits))
+#define _BST(reg, bits)         (reg) = ((reg) | (bits))
 /* clear bitfield */
-#define BCL(reg, bits)         (reg) = ((reg) & ~(bits))
+#define _BCL(reg, bits)         (reg) = ((reg) & ~(bits))
 /* wait until bitfield set */
-#define WBS(reg, bits)         while((reg) & (bits) == 0)
+#define _WBS(reg, bits)         while(((reg) & (bits)) == 0)
 /* wait until bitfield clear */
-#define WBC(reg, bits)         while((reg) & (bits) != 0)
+#define _WBC(reg, bits)         while(((reg) & (bits)) != 0)
 /* wait for bitfield value */
-#define WVL(reg, msk, val)     while(((reg) & (msk)) != (val))
+#define _WVL(reg, msk, val)     while(((reg) & (msk)) != (val))
+/* bit value */
+#define _BV(bit)                (0x01 << (bit))
 
 #if defined(STM32F0)
     #include "STM32F0xx/Include/stm32f0xx.h"
@@ -31,7 +33,7 @@
 #elif defined(STM32L1)
     #include "STM32L1xx/Include/stm32l1xx.h"
 #elif defined(STM32L4)
-    #include "STM32L1xx/Include/stm32l4xx.h"
+    #include "STM32L4xx/Include/stm32l4xx.h"
 #else
     #error "STM32 family not defined"
 #endif
