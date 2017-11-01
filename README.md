@@ -1,6 +1,6 @@
 # stm32h
 Universal "stm32.h" CMSIS include 
-+ Put stm32.h file into your cmsis/device/ST folder
++ Put stm32.h file into your CMSIS/Device/ST folder
 + Include stm32.h into your project
 + define family and device variables for preprocessor
 + enjoy
