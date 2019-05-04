@@ -28,6 +28,8 @@
     #include "STM32F4xx/Include/stm32f4xx.h"
 #elif defined(STM32F7)
     #include "STM32F7xx/Include/stm32f7xx.h"
+#elif defined(STM32H7)
+    #include "STM32H7xx/Include/stm32h7xx.h"
 #elif defined(STM32L0)
     #include "STM32L0xx/Include/stm32l0xx.h"
 #elif defined(STM32L1)
