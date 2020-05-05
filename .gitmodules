@@ -1,39 +1,39 @@
 [submodule "cmsis_device_l4"]
-	path = cmsis_device_l4
+	path = STM32L4xx
 	url = https://github.com/STMicroelectronics/cmsis_device_l4.git
 [submodule "cmsis_device_h7"]
-	path = cmsis_device_h7
+	path = STM32H7xx
 	url = https://github.com/STMicroelectronics/cmsis_device_h7.git
 [submodule "cmsis_device_l5"]
-	path = cmsis_device_l5
+	path = STM32L5xx
 	url = https://github.com/STMicroelectronics/cmsis_device_l5.git
 [submodule "cmsis_device_l1"]
-	path = cmsis_device_l1
+	path = STM32L1xx
 	url = https://github.com/STMicroelectronics/cmsis_device_l1.git
 [submodule "cmsis_device_l0"]
-	path = cmsis_device_l0
+	path = STM32L0xx
 	url = https://github.com/STMicroelectronics/cmsis_device_l0.git
 [submodule "cmsis_device_g4"]
-	path = cmsis_device_g4
+	path = STM32G4xx
 	url = https://github.com/STMicroelectronics/cmsis_device_g4.git
 [submodule "cmsis_device_g0"]
-	path = cmsis_device_g0
+	path = STM32G0xx
 	url = https://github.com/STMicroelectronics/cmsis_device_g0.git
 [submodule "cmsis_device_f7"]
-	path = cmsis_device_f7
+	path = STM32F7xx
 	url = https://github.com/STMicroelectronics/cmsis_device_f7.git
 [submodule "cmsis_device_f4"]
-	path = cmsis_device_f4
+	path = STM32F4xx
 	url = https://github.com/STMicroelectronics/cmsis_device_f4.git
 [submodule "cmsis_device_f3"]
-	path = cmsis_device_f3
+	path = STM32F3xx
 	url = https://github.com/STMicroelectronics/cmsis_device_f3.git
 [submodule "cmsis_device_f2"]
-	path = cmsis_device_f2
+	path = STM32F2xx
 	url = https://github.com/STMicroelectronics/cmsis_device_f2.git
 [submodule "cmsis_device_f1"]
-	path = cmsis_device_f1
+	path = STM32F1xx
 	url = https://github.com/STMicroelectronics/cmsis_device_f1.git
 [submodule "cmsis_device_f0"]
-	path = cmsis_device_f0
+	path = STM32F0xx
 	url = https://github.com/STMicroelectronics/cmsis_device_f0.git
