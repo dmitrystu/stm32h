@@ -20,3 +20,4 @@ Universal "stm32.h" CMSIS include
 | STM32L5        | STM32L5 family     | see STM32L5xx/Include/stm32l5xx.h |
 | STM32G0        | STM32G0 family     | see STM32G0xx/Include/stm32g0xx.h |
 | STM32G4        | STM32G4 family     | see STM32G4xx/Include/stm32g4xx.h |
+| STM32WB        | STM32WB family     | see STM32WBxx/Include/stm32wbxx.h |
