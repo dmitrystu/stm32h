@@ -42,6 +42,8 @@
     #include "STM32G0xx/Include/stm32g0xx.h"
 #elif defined(STM32G4)
     #include "STM32G4xx/Include/stm32g4xx.h"
+#elif defined(STM32WB)
+    #include "STM32WBxx/Include/stm32wbxx.h"
 #else
     #error "STM32 family not defined"
 #endif
