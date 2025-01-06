@@ -40,3 +40,6 @@
 [submodule "cmsis_device_wb"]
 	path = STM32WBxx
 	url = https://github.com/STMicroelectronics/cmsis_device_wb.git
+[submodule "STM32C0xx"]
+	path = STM32C0xx
+	url = https://github.com/STMicroelectronics/cmsis-device-c0.git
